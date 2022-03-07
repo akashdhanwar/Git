@@ -1,0 +1,36 @@
+1) Getting Started -
+Git is a Distributed Version Control System which saves the snapshot
+It has SHA1 integrity and Local work is done
+It has three phases - Modified(Changed file but not commited to database), Staged(Marked a modified file to go in next snapshot) and Commited(Data stored to local database .git)
+Setup - 	git config --global user.name "Akash Dhanwar"
+		git config --global user.email akash.dhanwar112@gmail.com
+		git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"	---->	To specify favourite editor
+		git config --global init.defaultBranch main	---->	Set default branch name
+		git config --list	---->	Check settings
+		git help config	---->	Get help of a command
+		
+		git log --oneline	----> logs
+
+
+2) Git Basics -
+Creating a git repo	-	git init
+					git add LICENSE						-	Staging a tracked/untracked file
+					git commit -m 'Initial project version'
+					git clone <url> dirName
+
+git status			---->		Check status
+git status -s		---->		Short status
+git diff			---->		Detailed status
+git diff --staged		---->		Changes that will go to next commit
+git diff --cached		---->		
+cat .gitignore		---->		Used to ignore some files
+git commit -m "message"	---->		Commit
+git commit -am "msg"	---->		Stage and Commit
+git rm filename		---->		Remove file from Staged area
+
+
+
+
+
+
+	
