@@ -22,12 +22,12 @@ Creating a git repo	-	git init
 *	git status			---->		Check status
 	git status -s			---->		Short status
 *	git diff filename		---->		Detailed status - Difference between directory file and staging area file
-										DESCRIPTION -
-										diff --git A/Git.txt B/Git.txt - A is staging file and B is directory file
-										index 279aee1..d40b054 100644  - A's hash 279aee1, B's hash d40b054, 100644 is mode of file - 100 is file type and 644 is file permissions
-										--- a/Git.txt					- Source file(staging file) A missing some lines
-										+++ b/Git.txt					- Destinaton file(Directory file) extra line additions
-										@@ -24,8 +24,8 @@ 				- -24 means lines missing in source(staging area) ans +24 is of directory file
+								DESCRIPTION -
+								diff --git A/Git.txt B/Git.txt 		- A is staging file and B is directory file
+								index 279aee1..d40b054 100644  		- A's hash 279aee1, B's hash d40b054, 100644 is mode of file - 100 is file type and 644 is file permissions
+								--- a/Git.txt				- Source file(staging file) A missing some lines
+								+++ b/Git.txt				- Destinaton file(Directory file) extra line additions
+								@@ -24,8 +24,8 @@ 			- -24 means lines missing in source(staging area) ans +24 is of directory file
  	git diff --staged		---->		Changes that will go to next commit
 	git diff --cached		---->		
 *	cat .gitignore			---->		Used to ignore some files
