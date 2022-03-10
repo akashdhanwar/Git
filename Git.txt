@@ -41,6 +41,7 @@ Creating a git repo	-	git init
 *	cat .gitignore				---->		Used to ignore some files
 *	git commit -m "message"			---->		Commit
 	git commit -am "msg"			---->		Stage and Commit
+	git add filename then git commit --amend			----> ammend the previous comming adding the data or new message to previous commit 
 *	git rm filename				---->		Deletes the file from directory and staging
 	git rm filename -f -r			---->		Deletes the file from directory and staging
 	git rm filename --cached		---->		Removes only from staging area
