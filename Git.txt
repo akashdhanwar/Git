@@ -34,8 +34,8 @@ Creating a git repo	-	git init
 	git diff commitid filename		---->		Differences between Working Directory and specific commitid
 	git diff --cached commitid filename	---->		Differences between Staging file and specific commitid
 	git diff commitid1 commitid2 filename	---->		Differences between two commits
-	git diff branch1 branch2		---->	Difference between two branches
-	git diff master origin/master	---->	Differences between local and remote repository
+	git diff branch1 branch2		---->		Difference between two branches
+	git diff master origin/master		---->		Differences between local and remote repository
 *	cat .gitignore				---->		Used to ignore some files
 *	git commit -m "message"			---->		Commit
 	git commit -am "msg"			---->		Stage and Commit
