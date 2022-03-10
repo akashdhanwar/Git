@@ -55,6 +55,8 @@ UNDOING CHANGES-
 									--mixed removes the commit and keeps code in Working Directory(Default)
 									--soft removes the commit and keeps code in staging area
 									--hard removes the commit and also discards the file from Working Directory
+									Note that if we push, then reset and then ppush again then it will throw conflict. Hence use revert
+*	git revert
 	
 
 
