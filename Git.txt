@@ -50,6 +50,6 @@ REMOVING/RENAMING-
 *	git mv filename newfilename			---->		Rename/Move a file. It can be done by combining changing a file name and git rm oldfilename
 
 UNDOING CHANGES-
-*	"git add filename" then "git commit --amend"	---->		amend the previous comming adding the data or new message to previous commit 
+*	"git add filename" then "git commit --amend"	---->		amend the previous commit adding the data or new message to previous commit 
 
 
