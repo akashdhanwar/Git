@@ -43,6 +43,7 @@ Creating a git repo	-	git init
 	git rm filename -f -r			---->		Deletes the file from directory and staging
 	git rm filename --cached		---->		Removes only from staging area
 	rm filename				---->		Removes only from directory
+*	git mv filename newfilename		---->	Rename/Move a file. It can be done by combining changing a file name and git rm oldfilename
 
 
 
