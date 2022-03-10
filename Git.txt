@@ -28,18 +28,18 @@ Creating a git repo	-	git init
 								--- a/Git.txt				- Source file(staging file) A missing some lines
 								+++ b/Git.txt				- Destinaton file(Directory file) extra line additions
 								@@ -24,8 +24,8 @@ 			- -24 means lines missing in source(staging area) ans +24 is of directory file
-	git diff HEAD filename		---->		Difference between Working Directory and last commit in local repository(HEAD)
- 	git diff --staged HEAD filename	---->		Difference between staged file and last commit
-	git diff --cached HEAD filename	---->		Difference between staged file and last commit
-	git diff commitid filename	---->		Differences between Working Directory and specific commitid
+	git diff HEAD filename			---->		Difference between Working Directory and last commit in local repository(HEAD)
+ 	git diff --staged HEAD filename		---->		Difference between staged file and last commit
+	git diff --cached HEAD filename		---->		Difference between staged file and last commit
+	git diff commitid filename		---->		Differences between Working Directory and specific commitid
 	git fiff --cached commitid filename	---->		Differences between Staging file and specific commitid
-*	cat .gitignore			---->		Used to ignore some files
-*	git commit -m "message"		---->		Commit
-	git commit -am "msg"		---->		Stage and Commit
-*	git rm filename			---->		Deletes the file from directory and staging
-		 filename -f -r		---->		Deletes the file from directory and staging
-	git rm filename --cached	---->		Removes only from staging area
-	rm filename			---->		Removes only from directory
+*	cat .gitignore				---->		Used to ignore some files
+*	git commit -m "message"			---->		Commit
+	git commit -am "msg"			---->		Stage and Commit
+*	git rm filename				---->		Deletes the file from directory and staging
+		 filename -f -r			---->		Deletes the file from directory and staging
+	git rm filename --cached		---->		Removes only from staging area
+	rm filename				---->		Removes only from directory
 
 
 
