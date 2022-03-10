@@ -40,7 +40,7 @@ Creating a git repo	-	git init
 *	git commit -m "message"			---->		Commit
 	git commit -am "msg"			---->		Stage and Commit
 *	git rm filename				---->		Deletes the file from directory and staging
-		 filename -f -r			---->		Deletes the file from directory and staging
+	git rm filename -f -r			---->		Deletes the file from directory and staging
 	git rm filename --cached		---->		Removes only from staging area
 	rm filename				---->		Removes only from directory
 
