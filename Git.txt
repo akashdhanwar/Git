@@ -7,7 +7,7 @@ Setup - 	git config --global user.name "Akash Dhanwar"
 		git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"	---->	To specify favourite editor
 		git config --global init.defaultBranch main	---->	Set default branch name
 		git config --list	---->	Check settings
-		git help config	---->	Get help of a command
+		git help config		---->	Get help of a command
 		
 		git log --oneline	----> logs
 
@@ -19,7 +19,7 @@ Creating a git repo	-	git init
 					git clone <url> dirName
 
 *	git ls-files			---->		List files in staging area
-*	git status				---->		Check status
+*	git status			---->		Check status
 	git status -s			---->		Short status
 *	git diff filename		---->		Detailed status - Difference between directory file and staging area file
 										diff --git A/Git.txt B/Git.txt - A is staging file and B is directory file
@@ -29,12 +29,12 @@ Creating a git repo	-	git init
 	git diff --staged		---->		Changes that will go to next commit
 	git diff --cached		---->		
 *	cat .gitignore			---->		Used to ignore some files
-*	git commit -m "message"	---->		Commit
-	git commit -am "msg"	---->		Stage and Commit
+*	git commit -m "message"		---->		Commit
+	git commit -am "msg"		---->		Stage and Commit
 *	git rm filename			---->		Deletes the file from directory and staging
 		 filename -f -r		---->		Deletes the file from directory and staging
-	git rm filename --cached---->		Removes only from staging area
-	rm filename				---->		Removes only from directory
+	git rm filename --cached	---->		Removes only from staging area
+	rm filename			---->		Removes only from directory
 
 
 
