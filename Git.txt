@@ -31,6 +31,7 @@ Creating a git repo	-	git init
 	git diff HEAD filename		---->		Difference between Working Directory and last commit in local repository(HEAD)
  	git diff --staged HEAD filename	---->		Difference between staged file and last commit
 	git diff --cached HEAD filename	---->		Difference between staged file and last commit
+	git diff commitid filename		---->		Differences between Working Directory and specific commitid
 *	cat .gitignore			---->		Used to ignore some files
 *	git commit -m "message"		---->		Commit
 	git commit -am "msg"		---->		Stage and Commit
