@@ -10,6 +10,7 @@ Setup - 	git config --global user.name "Akash Dhanwar"
 		git help config		---->	Get help of a command
 		
 		git log --oneline	----> logs
+		git log -p -2		----> --patch views logs with the things added or removed, that is the diff details also. -2 gives only last two commits
 
 
 2) Git Basics -
