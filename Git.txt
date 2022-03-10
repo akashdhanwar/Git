@@ -49,5 +49,5 @@ REMOVING/RENAMING-
 
 UNDOING CHANGES-
 *	"git add filename" then "git commit --amend"	---->		amend the previous commit adding the data or new message to previous commit 
-
+*	git checkout filename				---->		Unstage a file from staging area
 
