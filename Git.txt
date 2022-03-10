@@ -21,7 +21,11 @@ Creating a git repo	-	git init
 *	git ls-files			---->		List files in staging area
 *	git status				---->		Check status
 	git status -s			---->		Short status
-*	git diff				---->		Detailed status
+*	git diff filename		---->		Detailed status - Difference between directory file and staging area file
+										diff --git A/Git.txt B/Git.txt - A is staging file and B is directory file
+										index 279aee1..d40b054 100644  - A's hash 279aee1, B's hash d40b054, 100644 is mode of file - 100 is file type and 644 is file permissions
+										--- a/Git.txt
++++ b/Git.txt
 	git diff --staged		---->		Changes that will go to next commit
 	git diff --cached		---->		
 *	cat .gitignore			---->		Used to ignore some files
