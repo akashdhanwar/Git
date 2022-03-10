@@ -30,7 +30,7 @@ Creating a git repo	-	git init
 								@@ -24,8 +24,8 @@ 			- -24 means lines missing in source(staging area) ans +24 is of directory file
 	git diff HEAD filename		---->		Difference between Working Directory and last commit in local repository(HEAD)
  	git diff --staged HEAD filename	---->		Difference between staged file and last commit
-	git diff --cached		---->		
+	git diff --cached HEAD filename	---->		Difference between staged file and last commit
 *	cat .gitignore			---->		Used to ignore some files
 *	git commit -m "message"		---->		Commit
 	git commit -am "msg"		---->		Stage and Commit
