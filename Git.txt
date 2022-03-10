@@ -50,6 +50,8 @@ REMOVING/RENAMING-
 UNDOING CHANGES-
 *	"git add filename" then "git commit --amend"	---->		amend the previous commit adding the data or new message to previous commit 
 *	git checkout filename				---->		Discard changes from Working Directory
+*	git restore filename				---->		Discard changes from Working Directory
+	git restore --staged filename			---->		Unstage but keep modified changes in Working Directory
 *	git reset HEAD filename				---->		Unstage but keep modified changes in Working Directory
 	git reset HEAD~1				---->		Removes last commit or head commit and uncommited files are in Working Directory
 									--mixed removes the commit and keeps code in Working Directory(Default)
@@ -57,6 +59,7 @@ UNDOING CHANGES-
 									--hard removes the commit and also discards the file from Working Directory
 									Note that if we push, then reset and then ppush again then it will throw conflict. Hence use revert
 *	git revert commitid				---->		Revert a commitid and if we push, it creates an extra commit
+	 
 	
 
 
