@@ -50,8 +50,9 @@ REMOVING/RENAMING-
 UNDOING CHANGES-
 *	"git add filename" then "git commit --amend"	---->		amend the previous commit adding the data or new message to previous commit 
 *	git checkout filename				---->		Discard changes from Working Directory
-
-
+*	git reset HEAD filename				---->		Unstage but keep modified changes in Working Directory
+	git reset HEAD~1				---->		Removes last commit or head commit and uncommited files are in Working Directory
+	
 
 
 
