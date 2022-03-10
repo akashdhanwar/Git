@@ -30,20 +30,20 @@ Creating a git repo	-	git init
 								--- a/Git.txt				- Source file(staging file) A missing some lines
 								+++ b/Git.txt				- Destinaton file(Directory file) extra line additions
 								@@ -24,8 +24,8 @@ 			- -24 means lines missing in source(staging area) ans +24 is of directory file
-	git diff HEAD filename			---->		Difference between Working Directory and last commit in local repository(HEAD)
- 	git diff --staged HEAD filename		---->		Difference between staged file and last commit
-	git diff --cached HEAD filename		---->		Difference between staged file and last commit
-	git diff commitid filename		---->		Differences between Working Directory and specific commitid
-	git diff --cached commitid filename	---->		Differences between Staging file and specific commitid
-	git diff commitid1 commitid2 filename	---->		Differences between two commits
-	git diff branch1 branch2		---->		Difference between two branches
-	git diff master origin/master		---->		Differences between local and remote repository
-*	cat .gitignore				---->		Used to ignore some files
-*	git commit -m "message"			---->		Commit
-	git commit -am "msg"			---->		Stage and Commit
-	git add filename then git commit --amend			----> ammend the previous comming adding the data or new message to previous commit 
-*	git rm filename				---->		Deletes the file from directory and staging
-	git rm filename -f -r			---->		Deletes the file from directory and staging
-	git rm filename --cached		---->		Removes only from staging area
-	rm filename				---->		Removes only from directory
-*	git mv filename newfilename		---->		Rename/Move a file. It can be done by combining changing a file name and git rm oldfilename
+	git diff HEAD filename				---->		Difference between Working Directory and last commit in local repository(HEAD)
+ 	git diff --staged HEAD filename			---->		Difference between staged file and last commit
+	git diff --cached HEAD filename			---->		Difference between staged file and last commit
+	git diff commitid filename			---->		Differences between Working Directory and specific commitid
+	git diff --cached commitid filename		---->		Differences between Staging file and specific commitid
+	git diff commitid1 commitid2 filename		---->		Differences between two commits
+	git diff branch1 branch2			---->		Difference between two branches
+	git diff master origin/master			---->		Differences between local and remote repository
+*	cat .gitignore					---->		Used to ignore some files
+*	git commit -m "message"				---->		Commit
+	git commit -am "msg"				---->		Stage and Commit
+	git add filename then git commit --amend	---->		ammend the previous comming adding the data or new message to previous commit 
+*	git rm filename					---->		Deletes the file from directory and staging
+	git rm filename -f -r				---->		Deletes the file from directory and staging
+	git rm filename --cached			---->		Removes only from staging area
+	rm filename					---->		Removes only from directory
+*	git mv filename newfilename			---->		Rename/Move a file. It can be done by combining changing a file name and git rm oldfilename
