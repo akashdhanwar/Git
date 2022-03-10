@@ -33,7 +33,7 @@ Creating a git repo	-	git init
 	git diff --cached HEAD filename		---->		Difference between staged file and last commit
 	git diff commitid filename		---->		Differences between Working Directory and specific commitid
 	git diff --cached commitid filename	---->		Differences between Staging file and specific commitid
-	git diff commitid1 commitid2 filename---->		Differences between teo commits
+	git diff commitid1 commitid2 filename	---->		Differences between teo commits
 *	cat .gitignore				---->		Used to ignore some files
 *	git commit -m "message"			---->		Commit
 	git commit -am "msg"			---->		Stage and Commit
