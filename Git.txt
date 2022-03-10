@@ -11,11 +11,11 @@ Setup - 	git config --global user.name "Akash Dhanwar"
 		
 
 2) Git Basics -
-Creating a git repo	-	git init
-					git add LICENSE						-	Staging a tracked/untracked file
-					git commit -m 'Initial project version'
-					git clone <url> dirName
-
+*	git init					---->		Creating a git repo
+	git add LICENSE					---->		Staging a tracked/untracked file
+	git commit -m 'Initial project version'		---->		Commit
+	git commit -am "msg"				---->		Stage and Commit
+*	git clone <url> dirName				---->		Cloning a repo
 *	git log --oneline				---->		logs
 	git log -p -2					---->		--patch views logs with the things added or removed, that is the diff details also. -2 gives only last two commits
 									--stat displays the differences at last in a much better way
@@ -39,8 +39,6 @@ Creating a git repo	-	git init
 	git diff branch1 branch2			---->		Difference between two branches
 	git diff master origin/master			---->		Differences between local and remote repository
 *	cat .gitignore					---->		Used to ignore some files
-*	git commit -m "message"				---->		Commit
-	git commit -am "msg"				---->		Stage and Commit
 	
 REMOVING/RENAMING-
 *	git rm filename					---->		Deletes the file from directory and staging
