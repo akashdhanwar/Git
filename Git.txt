@@ -52,6 +52,9 @@ UNDOING CHANGES-
 *	git checkout filename				---->		Discard changes from Working Directory
 *	git reset HEAD filename				---->		Unstage but keep modified changes in Working Directory
 	git reset HEAD~1				---->		Removes last commit or head commit and uncommited files are in Working Directory
+									--mixed removes the commit and keeps code in Working Directory(Default)
+									--soft removes the commit and keeps code in staging area
+									--hard removes the commit and also discards the file from Working Directory
 	
 
 
