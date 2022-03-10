@@ -9,11 +9,6 @@ Setup - 	git config --global user.name "Akash Dhanwar"
 		git config --list	---->	Check settings
 		git help config		---->	Get help of a command
 		
-		git log --oneline	---->	logs
-		git log -p -2		---->	--patch views logs with the things added or removed, that is the diff details also. -2 gives only last two commits
-									--stat displays the differences at last in a much better way
-									--graph in a graphical way
-
 
 2) Git Basics -
 Creating a git repo	-	git init
@@ -21,6 +16,10 @@ Creating a git repo	-	git init
 					git commit -m 'Initial project version'
 					git clone <url> dirName
 
+*	git log --oneline		---->		logs
+	git log -p -2			---->		--patch views logs with the things added or removed, that is the diff details also. -2 gives only last two commits
+							--stat displays the differences at last in a much better way
+							--graph in a graphical way
 *	git ls-files			---->		List files in staging area
 *	git status			---->		Check status
 	git status -s			---->		Short status
