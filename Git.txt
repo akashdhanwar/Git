@@ -16,20 +16,20 @@ Creating a git repo	-	git init
 					git commit -m 'Initial project version'
 					git clone <url> dirName
 
-*	git log --oneline		---->		logs
-	git log -p -2			---->		--patch views logs with the things added or removed, that is the diff details also. -2 gives only last two commits
-							--stat displays the differences at last in a much better way
-							--graph in a graphical way
-*	git ls-files			---->		List files in staging area
-*	git status			---->		Check status
-	git status -s			---->		Short status
-*	git diff filename		---->		Difference between Working directory file and staging area file
-								DESCRIPTION -
-								diff --git A/Git.txt B/Git.txt 		- A is staging file and B is directory file
-								index 279aee1..d40b054 100644  		- A's hash 279aee1, B's hash d40b054, 100644 is mode of file - 100 is file type and 644 is file permissions
-								--- a/Git.txt				- Source file(staging file) A missing some lines
-								+++ b/Git.txt				- Destinaton file(Directory file) extra line additions
-								@@ -24,8 +24,8 @@ 			- -24 means lines missing in source(staging area) ans +24 is of directory file
+*	git log --oneline				---->		logs
+	git log -p -2					---->		--patch views logs with the things added or removed, that is the diff details also. -2 gives only last two commits
+									--stat displays the differences at last in a much better way
+									--graph in a graphical way
+*	git ls-files					---->		List files in staging area
+*	git status					---->		Check status
+	git status -s					---->		Short status
+*	git diff filename				---->		Difference between Working directory file and staging area file
+										DESCRIPTION -
+										diff --git A/Git.txt B/Git.txt 		- A is staging file and B is directory file
+										index 279aee1..d40b054 100644  		- A's hash 279aee1, B's hash d40b054, 100644 is mode of 															file - 100 is file type and 644 is file permissions
+										--- a/Git.txt				- Source file(staging file) A missing some lines
+										+++ b/Git.txt				- Destinaton file(Directory file) extra line additions
+										@@ -24,8 +24,8 @@ 			- -24 means lines missing in source(staging area) ans +24 is of directory file
 	git diff HEAD filename				---->		Difference between Working Directory and last commit in local repository(HEAD)
  	git diff --staged HEAD filename			---->		Difference between staged file and last commit
 	git diff --cached HEAD filename			---->		Difference between staged file and last commit
@@ -41,6 +41,8 @@ Creating a git repo	-	git init
 *	cat .gitignore					---->		Used to ignore some files
 *	git commit -m "message"				---->		Commit
 	git commit -am "msg"				---->		Stage and Commit
+	
+REMOVING/RENAMING-
 *	git rm filename					---->		Deletes the file from directory and staging
 	git rm filename -f -r				---->		Deletes the file from directory and staging
 	git rm filename --cached			---->		Removes only from staging area
@@ -49,4 +51,5 @@ Creating a git repo	-	git init
 
 UNDOING CHANGES-
 *	"git add filename" then "git commit --amend"	---->		amend the previous comming adding the data or new message to previous commit 
+
 
