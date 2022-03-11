@@ -59,6 +59,22 @@ UNDOING CHANGES-
 									--hard removes the commit and also discards the file from Working Directory
 									Note that if we push, then reset and then ppush again then it will throw conflict. Hence use revert
 *	git revert commitid				---->		Revert a commitid and if we push, it creates an extra commit
+
+
+*	git remote					---->		View remote repositories
+	git remote -v					---->		View remote repositories with the Url, verbose
+	git remote add <remoteName> <url>		---->		Add a remote repository
+	git remote remove <remoteName>			---->		Removes a origin
+	git remote show <remoteName>			----->		Details about remote like branches,etc
+	git remote rename <remName> <newName>		----->		Rename a remote
+									Note that remote is used for any remote repository, git pull <name> <branchUrl>
+									
+									
+*	git fetch					----->		Fetches origin(default)
+	git fetch <remoteName>				----->		Fetches defined remote
+	git push <remoteName> <branch>			----->		Push the code to a remote branch
+	
+
 	 
 	
 
